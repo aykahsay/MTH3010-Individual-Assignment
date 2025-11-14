@@ -27,16 +27,17 @@ Overlaying volatility histograms demonstrates the effect of risk on option valua
 | Call Option Price    | 8.088   |
 | Put Option Price     | 7.769   |
 
+
+**Histogram:**
+
+<img width="695" height="470" alt="image" src="https://github.com/user-attachments/assets/0da3638a-e491-4c26-8b8a-3fde95d50090" />
+
 **Interpretation:**
 
 * The **expected stock price** is slightly above the initial price, reflecting growth at the risk-free rate.
 * The **standard deviation** measures the uncertainty in the stock price at maturity; moderate volatility produces a noticeable spread.
 * The **call option** price is higher than the intrinsic value at-the-money due to potential upward movement in the stock.
 * The **put option** price reflects the value of protection against downside risk.
-
-**Histogram:**
-
-<img width="695" height="470" alt="image" src="https://github.com/user-attachments/assets/0da3638a-e491-4c26-8b8a-3fde95d50090" />
 
 ---
 
@@ -65,10 +66,6 @@ Overlaying volatility histograms demonstrates the effect of risk on option valua
 * **Financial Meaning:** Unpredictable market shocks or daily return fluctuations.
 * **Importance:** Introduces stochasticity and uncertainty into stock price modeling.
 * **Role in GBM:** Determines how each simulated stock path deviates from the deterministic trend.
-
-**Plot Placeholder:**
-`[Insert histogram of Z values overlaid with standard normal PDF here]`
-
 ---
 
 ## 4️⃣ Summary Table of Option Prices by Volatility
