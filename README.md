@@ -1,4 +1,4 @@
-# Monte Carlo Option Pricing – README
+# Monte Carlo Option Pricing
 
 This project implements Monte Carlo simulations to estimate **European call and put option prices** using the **Geometric Brownian Motion (GBM) model**.
 
