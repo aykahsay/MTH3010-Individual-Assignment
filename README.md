@@ -1,6 +1,9 @@
 # Monte Carlo Option Pricing
 
 This project implements Monte Carlo simulations to estimate **European call and put option prices** using the **Geometric Brownian Motion (GBM) model**.
+Monte Carlo simulation allows visual and numerical understanding of stock price uncertainty and option pricing.
+Histograms help interpret probabilities of stock price outcomes.
+Overlaying volatility histograms demonstrates the effect of risk on option valuation.
 
 ---
 
@@ -70,25 +73,20 @@ This project implements Monte Carlo simulations to estimate **European call and 
 
 ## 4️⃣ Summary Table of Option Prices by Volatility
 
-| Volatility (σ) | Expected Price | Std Dev | Call Price | Put Price |
-| -------------- | -------------- | ------- | ---------- | --------- |
-| 10%            | [value]        | [value] | [value]    | [value]   |
-| 20%            | 105.336        | 21.125  | 8.088      | 7.769     |
-| 30%            | [value]        | [value] | [value]    | [value]   |
+| Volatility (σ) | Expected Stock Price | Standard Deviation | Call Option Price | Put Option Price |
+| -------------- | -------------------- | ------------------ | ----------------- | ---------------- |
+| 10%            | 105.0036             | 10.5757            | 3.9926            | 3.9892           |
+| 20%            | 105.0766             | 20.9286            | 7.8912            | 7.8184           |
+| 30%            | 105.4187             | 32.4544            | 12.1990           | 11.8007          |
 
 **Interpretation:**
 
-* As volatility increases, the **expected price stays around the deterministic growth**, but the **spread increases**, resulting in **higher call and put prices**.
+As volatility increases, the expected stock price remains roughly the same (~105), which aligns with the risk-free growth.
 
+The standard deviation increases significantly with higher volatility, indicating greater uncertainty in the stock price at maturity.
+
+Both call and put option prices increase with volatility because higher volatility increases the probability of extreme outcomes, enhancing option value.
 **Plot Placeholder:**
-`[Optional: Combined visualization of option values vs volatility]`
 
 ---
 
-## ✅ Notes
-
-* Monte Carlo simulation allows **visual and numerical understanding** of stock price uncertainty and option pricing.
-* **Histograms** help interpret probabilities of stock price outcomes.
-* **Overlaying volatility histograms** demonstrates the effect of risk on option valuation.
-
----
