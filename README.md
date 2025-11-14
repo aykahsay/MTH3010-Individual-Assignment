@@ -31,8 +31,9 @@ This project implements Monte Carlo simulations to estimate **European call and 
 * The **call option** price is higher than the intrinsic value at-the-money due to potential upward movement in the stock.
 * The **put option** price reflects the value of protection against downside risk.
 
-**Plot Placeholder:**
-`[Insert histogram of simulated stock prices for base case here]`
+**Histogram:**
+
+<img width="695" height="470" alt="image" src="https://github.com/user-attachments/assets/0da3638a-e491-4c26-8b8a-3fde95d50090" />
 
 ---
 
@@ -48,8 +49,9 @@ This project implements Monte Carlo simulations to estimate **European call and 
 
 **Key Insight:** Increasing volatility **increases the spread of stock prices** and therefore **increases option values** due to higher probability of extreme outcomes.
 
-**Plot Placeholder:**
-`[Insert overlay histogram showing effect of volatility on stock price distribution here]`
+**Hitogram Plot:Effect of Volatility on Stock price Distrubtion**
+<img width="850" height="547" alt="image" src="https://github.com/user-attachments/assets/8877b29d-3ac1-466b-8c1d-be26b92d45ed" />
+
 
 ---
 
