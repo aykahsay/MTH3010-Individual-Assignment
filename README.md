@@ -83,7 +83,6 @@ As volatility increases, the expected stock price remains roughly the same (~105
 The standard deviation increases significantly with higher volatility, indicating greater uncertainty in the stock price at maturity.
 
 Both call and put option prices increase with volatility because higher volatility increases the probability of extreme outcomes, enhancing option value.
-**Plot Placeholder:**
 
 ---
 
